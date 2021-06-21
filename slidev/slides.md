@@ -1,38 +1,13 @@
 ---
-# try also 'default' to start simple
-theme: seriph
-# theme: unicorn
-# random image from a curated Unsplash collection by Anthony
-# like them? see https://unsplash.com/collections/94734566/slidev
-#background: https://source.unsplash.com/collection/94734566/1920x1080
-background: ./images/pineapple-supply-co-Q7PclNhVRI0-unsplash.jpg
-# apply any windi css classes to the current slide
-class: 'text-center'
-# https://sli.dev/custom/highlighters.html
-highlighter: shiki
-# some information about the slides, markdown enabled
-info: |
-  ## Slidev Starter Template
-  Presentation slides for developers.
-
-  Learn more at [Sli.dev](https://sli.dev)
-
+theme: unicorn
+layout: center
+logoHeader: '/images/favicon.ico'
+website: 'https://e99h2121.github.io/'
+handle: 'e99h2121 as YAMADA Nobuko'
 ---
 
 # わたしが新人だったころ
 
-YAMADA Nobuko as e99h2121.
-
-<div class="pt-12">
-  <span @click="$slidev.nav.next" class="px-2 p-1 rounded cursor-pointer" hover="bg-white bg-opacity-10">
-    Press Space for next page <carbon:arrow-right class="inline"/>
-  </span>
-</div>
-
-<a href="https://github.com/e99h2121" target="_blank" alt="GitHub"
-  class="abs-br m-6 text-xl icon-btn opacity-50 !border-none !hover:text-white">
-  <carbon-logo-github />
-</a>
 
 <!--
 The last comment block of each slide will be treated as slide notes. It will be visible and editable in Presenter Mode along with the slide. [Read more in the docs](https://sli.dev/guide/syntax.html#notes)
@@ -124,7 +99,7 @@ class: px-20
 
 - 当時は駆け出しエンジニアなんて言葉も無かったので、どこに駆け出したら良いのかは謎でした。
 
-<Tweet id="1390115482657726468" scale="0.65" />
+<Tweet id="1386120832854888449" scale="0.85" />
 </div>
 
 ---
@@ -194,12 +169,12 @@ image: ./images/pineapple-supply-co-Q7PclNhVRI0-unsplash.jpg
 </v-click>
 <v-click>
 
-- どうだろう...
+- ...
 
 </v-click>
 <v-click>
 
-- 恥ずかしいよね。私もはじめましてなのに何でこんな話題を選んだのだろう。
+- 恥ずかしいですよね。私もはじめましてなのに何でこんな話題を選んだのだろう。
 
 </v-click>
 
@@ -207,7 +182,7 @@ image: ./images/pineapple-supply-co-Q7PclNhVRI0-unsplash.jpg
 
 # yamada_n どちら様:
 
-- 失敗を話すのは年長者こその責任、使命なのではと私は思います！
+- とはいえ失敗を話すのは年長者こその責任、使命なのではと私は思います。
 
 - 私の入社以来の自慢エピソード。
 
@@ -220,7 +195,9 @@ image: ./images/pineapple-supply-co-Q7PclNhVRI0-unsplash.jpg
 
 - 2003年、夏。私は現在の会社で新規プロダクトの開発チームに配属されました。
 
-- 「新製品なので、新人がやっても年長者がやっても同じや！」という謎な理由でした。ラッキー...？
+- 「新製品なので、新人がやっても年長者がやっても同じや！」という謎な理由でした。
+
+- ラッキー...？
 
 ---
 
@@ -230,7 +207,7 @@ image: ./images/pineapple-supply-co-Q7PclNhVRI0-unsplash.jpg
 
 - 周りの先輩もいろいろでした。
 
-- が、私が取った行動
+- 私が取った行動
 
 ---
 
@@ -288,7 +265,14 @@ image: ./images/pineapple-supply-co-Q7PclNhVRI0-unsplash.jpg
 
 ---
 
-# yamada_n どちら様:
+# ちなみに今日のスライドは以下に基づいております
+
+- [「失敗を許容する」なんて言われても失敗したくないです - Qiita](https://qiita.com/e99h2121/items/873281d73cc504e5a64d)
+
+- [Markdownでオシャレなスライドを作るSli.dev - Qiita](https://qiita.com/e99h2121/items/a115f8865a0dc21bb462)
+
+---
+
 
 以上自己紹介をしていたら長くなってしまいました。
 
