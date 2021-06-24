@@ -14,6 +14,12 @@ handle: 'e99h2121 as YAMADA Nobuko'
 The last comment block of each slide will be treated as slide notes. It will be visible and editable in Presenter Mode along with the slide. [Read more in the docs](https://sli.dev/guide/syntax.html#notes)
 -->
 
+<style>
+h1 {
+  font-size: 42px !important;
+}
+</style>
+
 ---
 logoHeader: './images/favicon.ico'
 website: 'https://e99h2121.github.io/'
@@ -89,6 +95,8 @@ image: ./images/campaign-creators-gMsnXqILjp4-unsplash.jpg
 
 - 2003年に新卒・文系・未経験として入社、今に至ります。
 
+- プログラミングは入社してから覚えた系の人です。
+
 - 駆け出しエンジニアのはしり。
 
 
@@ -102,12 +110,13 @@ handle: 'yamada_n どちら様'
 ---
 
 <div grid="~ cols-2 gap-2" m="-t-2">
-
+<div>
 
 - 研修はDelphiとCOBOLでした。
 
 - 「3層構造」が流行り始める頃だったみたいです。
-
+</div>
+<div>
 
 ```pas
 procedure TForm1.Button1Click(Sender: TObject);
@@ -115,15 +124,41 @@ begin
   Showmessage('Hello World!');
 end;
 ```
+</div>
 
 </div>
+
+---
+website: 'https://e99h2121.github.io/'
+handle: 'yamada_n どちら様'
+---
+
+<div grid="~ cols-2 gap-2" m="-t-2">
+<div>
+
+- その後10年以上開発、保守。得意技、バッチ処理。主戦場はバックエンド。
+
+- サーバー間を行ったり来たりする図を書くのが得意です。
+
+</div>
+<div>
+
+
+```mermaid
+sequenceDiagram
+  Alice->John: Hello John, how are you?
+  Note over Alice,John: A typical interaction
+```
+</div>
+</div>
+
 
 ---
 layout: image-left
 image: ./images/cover.jpg
 ---
 
-- その後10年以上開発、保守。得意技、バッチ処理。主戦場はバックエンド。製品はいつの間にかクラウドに。
+- 製品はいつの間にかクラウドに。
 
 - 最近は[AWS Fargate](https://qiita.com/e99h2121/items/38cb0e004d51dffd2716) だなんだと言っている。
 
