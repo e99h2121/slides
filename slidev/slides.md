@@ -180,7 +180,7 @@ website: 'https://e99h2121.github.io/'
 handle: 'yamada_n どちら様'
 ---
 
-- この辺の記事書いたひと、と言って思い出してもらえたら嬉しいかも
+- この辺の記事書いたひと、と言って思い出してもらえたら嬉しいかも。
     - [海外「なぜ日本はハードウェアの時代と同じようにソフトウェアに秀でることができない？」 - Qiita](https://qiita.com/e99h2121/items/419c3bd39d8dea40f21a)
     - [エンジニアはどこまで勉強すればよいのか - スキルマップと生存戦略を考えた - Qiita](https://qiita.com/e99h2121/items/a41339815d9aea87bdb4)
         - [エンジニアは英語をどこまで勉強すればよいのか - 英語に関する2つのご意見 - Qiita](https://qiita.com/e99h2121/items/c6afa788d87dbcb09175)
@@ -197,39 +197,44 @@ image: ./images/pineapple-supply-co-Q7PclNhVRI0-unsplash.jpg
 
 - 今日は「[新人プログラマ応援 - みんなで新人を育てよう！ - Qiita](https://qiita.com/official-events/63aa63fd921659fb3b5d)」にあやかって、自己紹介がてら、私の新人時代の話を振り返ってみたいです。
 
-<v-click>
-
-- 皆様は語れる失敗経験、あるでしょうか。
-
-</v-click>
-<v-click>
-
-- ...
-
-</v-click>
-<v-click>
-
-- 恥ずかしいですよねえ。私もはじめましてなのに何でこんな話題を選んだのか。
-
-</v-click>
 
 ---
 website: 'https://e99h2121.github.io/'
 handle: 'yamada_n どちら様'
 ---
 
-- とはいえ失敗を話すのは年長者こその責任、使命なのではと私は思います。
+皆様は語れる失敗経験、あるでしょうか。
 
-<v-click>
+---
+website: 'https://e99h2121.github.io/'
+handle: 'yamada_n どちら様'
+---
 
-- 私の入社以来の自慢エピソード。
+何でこんな話題を選んだのか。
 
-</v-click>
-<v-click>
+---
+website: 'https://e99h2121.github.io/'
+handle: 'yamada_n どちら様'
+---
+
+失敗
+
+---
+website: 'https://e99h2121.github.io/'
+handle: 'yamada_n どちら様'
+---
+
+ではなくて、失敗を話すのは年長者こその責任、使命なのではと私は思います。
+
+---
+website: 'https://e99h2121.github.io/'
+handle: 'yamada_n どちら様'
+---
+
+- だから、私の入社以来の自慢エピソード。
 
 - 遡る2003年、新卒入社当時の話を聞いてください。
 
-</v-click>
 
 ---
 website: 'https://e99h2121.github.io/'
