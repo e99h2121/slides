@@ -1,5 +1,7 @@
 <!-- classes: title -->
 
+
+
 # わたしが新人だったころ
 
 
@@ -240,4 +242,3 @@ https://twitter.com/e99h2121
 https://e99h2121.github.io/
 
 etc.
-
