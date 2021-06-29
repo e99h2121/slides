@@ -11,6 +11,7 @@ theme: default
 The last comment block of each slide will be treated as slide notes. It will be visible and editable in Presenter Mode along with the slide. [Read more in the docs](https://sli.dev/guide/syntax.html#notes)
 -->
 
+[YAMADA Nobuko as e99h2121](https://e99h2121.github.io/)
 
 ---
 
@@ -20,7 +21,7 @@ The last comment block of each slide will be treated as slide notes. It will be 
 
 # yamada_n どちら様
 
-- ID: e99h2121 で色んな所にいます。
+- ID: [e99h2121](https://e99h2121.github.io/) で色んな所にいます。
 - 名前は yamada_n とか YAMADA Nobuko とか書いてます。
 - 自社内でも やまださん で通っております。
 
@@ -36,7 +37,7 @@ Read more about [e99h2121](https://e99h2121.github.io/)
 
 - 乱入する何かが現れたら彼らです (本日は寛大な心でよろしくおねがいいたします) 。
 
-- [【インタビュー】子育てをしながらリモートでITエンジニアとして働く山田 展子さんを徹底取材！｜テレラボ｜リモートワーカーのための求人メディア](https://tele-labo.jp/company/6202) なんて取材をしてもらったことがあります！
+- [【インタビュー】子育てをしながらリモートでITエンジニアとして働く山田 展子さんを徹底取材！｜テレラボ｜リモートワーカーのための求人メディア](https://tele-labo.jp/company/6202) なんて取材をしてもらったことがありますが、最近の話。多くは「どちら様？」なのではと思っています。
 
 ---
 
@@ -46,9 +47,9 @@ Read more about [e99h2121](https://e99h2121.github.io/)
 
 - 会社としては私から巻き込まれ事故をくらいたくないようで公共の場での発言には気をつけています。今日は個人戦のつもりで来ました。笑
 
-- でも同僚は[こういうところに出ていたり](https://speakerdeck.com/whisaiyo/developers-summit-2021)。
+- でも同僚はデブサミに出て楽しく学び続けるコミュニティを育てた話をしていたり。
 
-- [こんな超優秀な同僚に囲まれています](https://qiita.com/autotaker1984/items/894bf0df0009c621da11)。
+- 荒れ果てた開発環境にCIを導入し単体テストを布教していたりします。
 
 ---
 
@@ -58,27 +59,33 @@ Read more about [e99h2121](https://e99h2121.github.io/)
 
 - 世が世なら駆け出しエンジニア。
 
+---
+
+引用: [Yahoo! JAPANトップで見るウェブデザインの歴史](https://techblog.yahoo.co.jp/entry/20190530678295/)
+
+![yahoo](/images/02_2003_03.png)
 
 ---
 
 - 研修はDelphiとCOBOLでした。
 
-- 「3層構造」が流行り始める頃だったみたいです。
+- 「3層構造」が流行り始める頃だったみたいです。WindowsはXPからVista, 8 を乗り越えた。
 
-- 顧客対応したりしているうちに年号は令和になっていました (そういえば年号対応とかやったなあ)。
+- 顧客対応したりしているうちに年号は令和になっていました (そういえば年号対応とかもやった)。
 
-
-```pas
-procedure TForm1.Button1Click(Sender: TObject);
-begin
-  Showmessage('Hello World!');
-end;
-```
 ---
+
+引用: [そのPCは大丈夫？　Windows XPを使い続けてはいけない10の理由](https://ascii.jp/elem/000/000/844/844735/)
+
+![windowsxp](/images/8f025415241b1b58.jpg)
+
+---
+
+- お客様の要望とともに（弊社の自慢はお客様です）
 
 - その後10年以上開発、保守。得意技、バッチ処理。主戦場はバックエンド。
 
-- サーバー間を行ったり来たりする図を書くのが得意です。
+- そのややこしいアーキテクチャをどうにか噛み砕いていたら、サーバー間を行ったり来たりする図を書くのが得意になりました。
 
 ```mermaid
 sequenceDiagram
@@ -88,11 +95,23 @@ sequenceDiagram
 
 ---
 
-- 製品はいつの間にかクラウドに。
+- 製品はいつの間にかクラウドを目指す方向になりました。
 
 - 最近は[AWS Fargate](https://qiita.com/e99h2121/items/38cb0e004d51dffd2716) だなんだと言っている。
 
 - 途中上海赴任するなどとは思ってもみませんでしたが、当時の上司に「こいつは何があってもしなないと思った」という理由で赴任させてもらえました。
+
+---
+
+![shanghai](/images/IMG_0041.JPG)
+
+---
+
+![shanghai](/images/IMG_0044.JPG)
+
+---
+
+![shanghai](/images/IMG_1059.JPG)
 
 ---
 
@@ -106,7 +125,8 @@ sequenceDiagram
 
 ---
 
-- 長くなるのですが
+# 長くなるのですが
+
 
 - 今日は「[新人プログラマ応援 - みんなで新人を育てよう！ - Qiita](https://qiita.com/official-events/63aa63fd921659fb3b5d)」にあやかって、自己紹介がてら、私の新人時代の話を振り返ってみたいです。
 
@@ -146,33 +166,49 @@ sequenceDiagram
 
 - 周りの先輩もいろいろでした。
 
-- 私が取った行動
+- 私が取った行動。
 
 ---
 
-- 自分で座席を既存プロダクトのチーム付近に移動して、既存プロダクトの仕事を <s>勝手に</s> 自主的にはじめました。
+# 自分で自席を理想のチーム席へ
 
-- それが今いるHRという製品なのですから、今の私は当時の私が作ったと言ってよい...
+- 異動ならぬ移動。
+
+- 既存プロダクトのチーム付近に移動しました。
 
 ---
 
-- 当然、受け入れ側の各位には怒られる。
+# 理想の仕事
 
-- が、新人なりに <s>頑固な心</s> 確たる信念があったので、後付でいつのまにか社内異動を達成しました。
+- 既存プロダクトの仕事を <s>勝手に</s> 自主的にはじめました。
 
-- HRの会社なのに私の社内異動履歴どうなっているのかはわかりません。
+---
+
+- それが今いるHRという製品なのですから、今ここにいる私は、当時の私が作ったと言ってよいのです。
+
+---
+
+# 当然ですが
+
+- 受け入れ側の各位には怒られました。
+
+- が、新人なりに <s>かたくなな心</s> 確たる信念があったので、後付でいつのまにか社内異動を達成できました。
+
+- HRの会社ですが、私の社内異動履歴どうなっているのかはわかりません。
 
 ---
 
 - 謎です。
 
-- というかそんな新人、いま隣の席に来たら私も嫌です。笑
+- というかそんな新人、いま隣の席に来たら私も嫌ですね。笑
 
 ---
 
-- フルリモートワークバンザイ
+# フルリモートワークバンザイ
 
 ---
+
+# しかし
 
 - 失敗というよりはゴリ押し？な経験だったり、少しだけ期限に遅れたり忘れていたり、ソースの確認が浅かったり
 
@@ -188,9 +224,15 @@ sequenceDiagram
 
 ---
 
+# 少なくとも今日
+
+## そう思っていただけはしないでしょうか
+
+---
+
 - そして相変わらず不具合や仕様を説明するのは得意ではないです！
 
-- しかし振り返ってそれを次に生かしたり、学びを記事にできるなら、まあ美味しいんですよね～。だから、それを書いています！
+- しかし振り返ってそれを次に生かしたり、学びを記事にできるなら、まあ美味しいんですよね～。だから、それを書いているし、だからネタは尽きない。
 
 ---
 
@@ -200,34 +242,29 @@ sequenceDiagram
 
 ---
 
-# ちなみに今日のスライドは以下に基づいております
+# そのようなわけで
 
-- [「失敗を許容する」なんて言われても失敗したくないです - Qiita](https://qiita.com/e99h2121/items/873281d73cc504e5a64d)
-
-- [Markdownでオシャレなスライドを作るSli.dev - Qiita](https://qiita.com/e99h2121/items/a115f8865a0dc21bb462)
+- 今日のスライドは以下に基づいております
+    - [「失敗を許容する」なんて言われても失敗したくないです - Qiita](https://qiita.com/e99h2121/items/873281d73cc504e5a64d)
+    - [Markdownでオシャレなスライドを作るSli.dev - Qiita](https://qiita.com/e99h2121/items/a115f8865a0dc21bb462)
 
 ---
 
-# そしてもちろんQiita芸人としてはまだまだ若輩者です
+# そしてもちろん
 
-- [テクニカルライティングチームのお仕事 2021年6月版 - Qiita](https://qiita.com/e99h2121/items/3da004b8194a64c4f207)
-
-- [Markdownファイル校正手順 - 実務編 - Qiita](https://qiita.com/e99h2121/items/2b7aaa1625db2785d3bd)
-
-- [そういえば弊社もCOBOL保守してるけど全然触ったこと無いなという人向け、COBOLを完全理解できる記事 - Qiita](https://qiita.com/e99h2121/items/47857957fd549c83b5cb)
-
-- [そろそろTypeScriptに入門するから、TypeScriptとは何なのか、どう良いのか書いておく - Qiita](https://qiita.com/e99h2121/items/09892779dcb26a70bc97)
-
-- [なぜ開発チームは私の起票した要望をなかなか実装してくれないの？への苦悩 - Qiita](https://qiita.com/e99h2121/items/f4c5856734d136f672b7)
-
-- [私にコーヒーをおごってほしい - エンジニアと報酬・対価について考えた - Qiita](https://qiita.com/e99h2121/items/088e25ab66535836c05c)
-
-- [結局UMLとかシーケンス図とかAWSの図とかどれで描くと良いのよ？と思ったときの選択肢 - Qiita](https://qiita.com/e99h2121/items/eaca084ae7b0488ab686)
+- Qiita芸人としてはまだまだ若輩者です
+    - [テクニカルライティングチームのお仕事 2021年7月版 - Qiita](https://qiita.com/e99h2121/items/3da004b8194a64c4f207)
+    - [Markdownファイル校正手順 - 実務編 - Qiita](https://qiita.com/e99h2121/items/2b7aaa1625db2785d3bd)
+    - [そういえば弊社もCOBOL保守してるけど全然触ったこと無いなという人向け、COBOLを完全理解できる記事 - Qiita](https://qiita.com/e99h2121/items/47857957fd549c83b5cb)
+    - [そろそろTypeScriptに入門するから、TypeScriptとは何なのか、どう良いのか書いておく - Qiita](https://qiita.com/e99h2121/items/09892779dcb26a70bc97)
+    - [なぜ開発チームは私の起票した要望をなかなか実装してくれないの？への苦悩 - Qiita](https://qiita.com/e99h2121/items/f4c5856734d136f672b7)
+    - [私にコーヒーをおごってほしい - エンジニアと報酬・対価について考えた - Qiita](https://qiita.com/e99h2121/items/088e25ab66535836c05c)
+    - [結局UMLとかシーケンス図とかAWSの図とかどれで描くと良いのよ？と思ったときの選択肢 - Qiita](https://qiita.com/e99h2121/items/eaca084ae7b0488ab686)
 
 ---
 
 
-以上自己紹介が長くなってしまいました。
+## 以上、いささか自己紹介が長くなってしまいました。
 
 少しでも面白いものを見つけていただけたら、さいわいです。またこれによって「失敗」なんて大したこと無いなと思っていただけたらうれしいです。
 
@@ -236,7 +273,7 @@ sequenceDiagram
 
 # Learn More
 
-## 続きはこれからもよろしくおねがいします！
+## 続きはこれからもよろしくおねがいします。
 
 https://qiita.com/e99h2121
 
@@ -244,5 +281,4 @@ https://twitter.com/e99h2121
 
 https://e99h2121.github.io/
 
-etc.
-
+😋
