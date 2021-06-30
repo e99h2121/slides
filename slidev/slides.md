@@ -57,7 +57,7 @@ Read more about [e99h2121](https://e99h2121.github.io/)
 
 - プログラミングは入社してから覚えたほうの人です。
 
-- 世が世なら駆け出しエンジニア。
+- 世が世なら駆け出しエンジニアと名乗りたい人生だった。
 
 ---
 
@@ -103,13 +103,19 @@ sequenceDiagram
 
 ---
 
+思い出1: 向こうのノベルティ
+
 ![shanghai](/images/IMG_0041.PNG)
 
 ---
 
+思い出2: 向こうのfacebook
+
 ![shanghai](/images/IMG_0044.PNG)
 
 ---
+
+思い出3: 向こうの美味しいクレープ
 
 ![shanghai](/images/IMG_1059.PNG)
 
